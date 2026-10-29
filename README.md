@@ -5,7 +5,7 @@
 
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-  [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management?style=social)](https://github.com/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management/stargazers)
+  [![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management?style=social)](https://github.com/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management/stargazers)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management/pulls)
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -46,9 +46,9 @@ The table below lists leading commercial multi-channel marketplace and feed mana
 
 Multi-channel marketplace management remains an area where open-source software is scarce at the native category-mapping and feed-transformation layer. However, several open-source order orchestration systems, headless commerce platforms, and marketplace API client libraries power production-grade self-hosted multichannel architectures.
 
-Sorted in descending order by GitHub star count:
+Sorted in descending order by GitHub Stars_Count:
 
-| Repository | ⭐ GitHub Stars | 📜 License | 🛠️ Primary Architectural Role |
+| Repository | ⭐ GitHub_Stars | 📜 License | 🛠️ Primary Architectural Role |
 | :--- | :--- | :--- | :--- |
 | **[bagisto/bagisto](https://github.com/bagisto/bagisto)** | [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | MIT | Enterprise-scale multi-vendor marketplace engine and headless commerce framework supporting 10M+ SKUs and multi-channel store instances. |
 | **[spree/spree](https://github.com/spree/spree)** | [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers) | BSD-3-Clause | Omnichannel headless commerce platform providing unified REST/GraphQL APIs, multi-store data tenancy, and inventory multi-location management. |
