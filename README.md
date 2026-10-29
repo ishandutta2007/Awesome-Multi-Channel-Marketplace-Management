@@ -1,175 +1,96 @@
-# Awesome-Multi-Channel-Marketplace-Management
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Multi-Channel Marketplace Management Banner" width="100%" />
 
-## Top Multi-Channel Marketplace Management Ecosystem
+  # Awesome Multi-Channel Marketplace Management
 
+  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+  [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management?style=social)](https://github.com/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management/stargazers)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management/pulls)
 
+  **A curated directory of enterprise SaaS platforms, product feed management engines, and open-source order orchestration systems for multi-channel ecommerce across Amazon, Walmart, eBay, TikTok Shop, Etsy, and global marketplaces.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Marketplace Listing Sync, Inventory Routing & Self-Hosted Channel Orchestration*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Multi-Channel Marketplace Management**. These tools enable merchants to list products, synchronize inventory, manage orders, and control pricing across multiple marketplaces (Amazon, eBay, Walmart, Etsy, Zalando, Bol, and hundreds more) from a centralized hub—reducing overselling, manual data entry, and channel fragmentation.
-
-
-
-**Examples** include Shopify Marketplace Connect, ChannelEngine, Feedonomics, Sellbrite, ChannelAdvisor (Rithum), CedCommerce, SellerCloud, Zentail, ChannelSale, and GoDataFeed (the category leaders).
-
-
-
-**Open-source emphasis**: Multi-Channel Marketplace Management is a domain where open-source tooling is **exceptionally sparse**. The strongest active project is **Openship**, a multi-channel order router that connects sales channels (Shopify, WooCommerce, Amazon, eBay) to fulfillment destinations—explicitly designed as a self-hosted alternative to proprietary commerce infrastructure . However, Openship focuses on **fulfillment routing**, not the marketplace listing creation, feed optimization, and repricing workflows that define dedicated multi-channel management platforms. **OpenOMS** provides a broader OMS with SDKs for Allegro, Amazon, WooCommerce, and eBay, but it is an order management system rather than a marketplace listing manager. No open-source project replicates the feed transformation, category mapping, and Buy Box repricing of ChannelEngine or Feedonomics.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Shopify Marketplace Connect](https://help.shopify.com/en/manual/online-sales-channels/marketplaces/marketplace-connect)**  
-
-  Shopify's native app for connecting stores to marketplaces (Amazon, eBay, Walmart, Etsy, and more); creates listings from Shopify products, links existing marketplace listings via SKU/UPC matching, and syncs orders and inventory . Free for unlimited manual order imports and automatic sync of the first 50 marketplace orders per month .
-
-
-
-- **[ChannelEngine](https://www.channelengine.com/)**  
-
-  Multichannel ecommerce platform connecting WooCommerce and other stores to **700+ marketplaces** including Amazon, Walmart, Zalando, Bol, and Lazada . The 2025 product update added **AI-powered category mapping**, copy-categories-across-countries, CSV category imports, a custom feed builder, and a revamped **Price Management** suite with dynamic repricing (sellers reaching up to **96% Buy Box win rates**), minimum price calculation, marketplace fee integration, and profitability reporting .
-
-
-
-- **[Feedonomics](https://feedonomics.com/)**  
-
-  Product feed management and optimization platform for **1,200+ advertising destinations and 2,000+ channel destinations** . Features data transformers to enrich titles, categories, and attributes in bulk; near-real-time syncs; a consolidated error resolution dashboard; and generative AI for filling out product feeds. Customers report **19% ROAS improvement**, **21% channel revenue growth**, and **43% less time on feeds** .
-
-
-
-- **[Sellbrite](https://www.sellbrite.com/)**  
-
-  Multi-channel listing and inventory management for marketplaces including Amazon, eBay, Etsy, and Walmart . Supports import/create/edit listings, inventory sync, price sync, and order import. Listing creation uses reusable **Templates** for shipping, payment, and category mapping, with automatic suggestions for required item specifics (e.g., eBay Brand) . International integrations offer fewer features than US channels .
-
-
-
-- **[ChannelAdvisor (Rithum)](https://www.rithum.com/)**  
-
-  Enterprise multichannel commerce platform (now **Rithum**) with algorithmic repricing for Amazon, eBay, and Walmart to win the Buy Box; rule-based and velocity repricing; Deal Planner for short-term promotions across **50+ channels**; order consolidation across owned warehouses, FBA, ZFS, and 3PLs; and a **MAP Violation Report** for pricing compliance .
-
-
-
-- **[CedCommerce](https://cedcommerce.com/)**  
-
-  Marketplace integration solutions, now a **Salesforce Commerce Cloud Link Technology Partner** . Provides headless solutions connecting Salesforce Commerce Cloud retailers to multiple marketplaces with feed management, category mapping, scheduled product sync, oversell protection, near real-time order creation, and 24/7 support.
-
-
-
-- **[SellerCloud](https://www.sellercloud.com/)**  
-
-  Multichannel ecommerce platform with integrations for OpenCart, Cdiscount, and other channels . Features **Channel Warehouse** (assign unique warehouses per sales channel for inventory routing), Imagebridge for bulk image uploads, Quickbridge for configuration portability, and granular employee security settings.
-
-
-
-- **[Zentail](https://www.zentail.com/)**  
-
-  AI-powered PIM and multichannel listing management for Shopify sellers expanding to Amazon, Walmart, and more . Syncs and formats Shopify listings to each marketplace's requirements, auto-adjusts listed quantities to prevent overselling, allows per-channel listing customization (copy, images, price) without affecting other channels, and manages multiple fulfillment methods (FBA, 3PL) with warehouse priority routing.
-
-
-
-- **[ChannelSale](https://apps.shopify.com/channelsale)**  
-
-  Shopify app connecting to **200+ marketplaces** including Amazon, Walmart, eBay, Wayfair, Etsy, Google Shopping, TikTok Shop, Best Buy, Newegg, and Temu . Free plan supports up to 15 orders and 500 products/month across Amazon, eBay, and Walmart; paid tiers scale to 100,000 product listings. Includes managed onboarding, listing optimization, near real-time inventory/order/tracking sync.
-
-
-
-- **[GoDataFeed](https://www.godatafeed.com/)**  
-
-  Feed management platform with **FeedPilot** pre-built rules for data transformation . Supports concatenation (e.g., Brand + Title), text replacement (standardize capitalization, remove "Free Shipping"), number functions (e.g., add 50% to prices), UTM parameter appending, and duplicate conditions. Compiles feeds with validation summaries and AI-summarized error messages.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Openship](https://github.com/openshiporg/openship)**  
-
-  The most focused open-source **multi-channel order router** available (~1,029 GitHub stars); connects shops (Shopify, WooCommerce, eBay, Amazon) to channels (3PL services, supplier shops, Google Sheets, email) with automatic order forwarding and product-level matching rules . Part of the **Openfront ecosystem** (alongside Openfront E-commerce and Openfront Restaurant), aiming to provide open alternatives to Shopify, Toast, and MindBody. **This is the closest open-source project to multi-channel fulfillment orchestration**, but it routes orders rather than managing marketplace listings, feeds, or repricing—the core workflows of dedicated multi-channel management platforms.
-
-
-
-- **[OpenOMS](https://github.com/openoms-org/openoms)**  
-
-  Open-source Order Management System (Go backend + Next.js dashboard) with 463 API endpoints and 27 SDK packages covering **Allegro, Amazon Selling Partner API, WooCommerce, and eBay** . Provides a broader OMS backend and dashboard, but the core API/dashboard code uses Elastic License 2.0 (not OSI-approved), with MIT-licensed SDKs. **Order management-focused** rather than marketplace listing and feed management.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **No mature open-source marketplace listing manager exists** — The core workflows of ChannelEngine, Feedonomics, and Zentail—feed transformation, category mapping, Buy Box repricing, and multi-marketplace listing creation—are not replicated by any active open-source project. Openship and OpenOMS address adjacent needs (order routing, OMS) but not the listing and feed layer.
-
-- **GitHub `marketplace-api` topic** — Contains API-focused projects (marketplace creation APIs, Shopify API wrappers) rather than seller-side multi-channel management tools .
-
-
-
-**Frameworks for building custom systems**: No open-source project provides the full multi-channel listing and feed management stack. **Openship** provides order routing between channels and fulfillment destinations . **OpenOMS** provides multi-marketplace order SDKs and an OMS backend . For feed transformation and category mapping, organizations would need to build custom pipelines using tools like GoDataFeed's rule patterns (concatenation, text replacement, number functions) or integrate with commercial feed platforms. A complete open-source multi-channel management system does not exist today.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Multi-channel marketplace platforms handling product data and orders must comply with each marketplace's API terms, rate limits, and seller policies; pricing and inventory data can reveal competitive strategy.
-
-- **Open-source multi-channel marketplace management is essentially absent for the core listing and feed workflows**—Openship provides order routing and OpenOMS provides OMS SDKs, but no open-source project replicates the feed transformation, category mapping, and repricing capabilities of ChannelEngine or Feedonomics. Organizations requiring dedicated multi-channel listing management should evaluate commercial platforms.
-
-- Verify license terms for commercial use; Openship is open-source (check repository) and OpenOMS uses Elastic License 2.0 for its core with MIT-licensed SDKs.
-
-
+  [Sector Overview](#sector-overview--market-dynamics) • [SaaS Platforms](#saashosted-platforms) • [Open-Source Projects](#open-source-github-projects) • [Key Capabilities](#core-capabilities-in-multichannel-management) • [Contributing](#how-to-contribute)
+</div>
 
 ---
 
+## Sector Overview & Market Dynamics
 
+The global multi-channel order and marketplace management software market is valued at approximately **$4.2 billion to $4.5 billion**, expanding at a 10%–12% CAGR toward an estimated $7B–$11B by the early 2030s. The sector remains **moderately fragmented**: the top five global enterprise software suites account for roughly 32%–38% of revenue, while a dynamic tier of specialist feed optimization platforms and regional connector middleware serves merchants navigating fragmented seller APIs, local marketplaces, and emerging social shopping channels.
 
-**Made for ecommerce operations teams, marketplace sellers, multichannel managers, and channel integration engineers.**  
+---
 
-Let's make multi-channel marketplace management more open, but with clear eyes about the listing and feed automation gap that remains.
+## SaaS/Hosted Platforms
+
+The table below lists leading commercial multi-channel marketplace and feed management platforms, sorted in descending order by parent company scale (market capitalization, valuation, or estimated annual revenue):
+
+| Platform | Company Scale / Valuation | Starting Tier Pricing | Free Tier / Trial Limits | Core Multi-Channel Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify Marketplace Connect](https://help.shopify.com/en/manual/online-sales-channels/marketplaces/marketplace-connect)** | ~$215B Market Cap (Shopify Inc., NYSE: SHOP) | $0/mo base; 1% fee on sales for orders beyond the 50th order (capped at $99/mo max) | **Free Forever Plan**: 50 marketplace-synced orders/month + unlimited manual imports | Native Shopify channel app linking catalog items to Amazon, eBay, Walmart, and Target Plus via SKU/UPC matching with auto inventory sync. |
+| **[ChannelAdvisor (Rithum)](https://www.rithum.com/)** | ~$1.5B+ Valuation (Rithum / Clearlake & GTCR portfolio) | ~$1,500/mo to $2,000/mo minimum platform fee + 2%–4% GMV revenue share (custom contract) | **No Free Tier / No Trial**: Live custom enterprise product demonstration only | Enterprise algorithmic Buy Box repricing for Amazon & Walmart, automated deal planning across 50+ channels, and multi-node 3PL routing. |
+| **[Feedonomics](https://feedonomics.com/)** | $145M Acquisition by BigCommerce (NASDAQ: BIGC) | $29/mo (Feedonomics Surface for BigCommerce); Full-Service Enterprise starts ~$1,000/mo | **Free Tier Available**: Feedonomics Surface basic tier includes up to 100,000 SKUs on core advertising channels | Enterprise product feed transformation, category attribute enrichment, algorithmic error governance, and automated channel syndication. |
+| **[SellerCloud](https://www.sellercloud.com/)** | $110M–$130M Acquisition by Descartes (NASDAQ: DSGX) | $1,349/mo (Essentials plan, billed annually) | **No Free Tier / No Trial**: Personalized live demo workflow with an integration specialist | Channel-specific virtual warehouse routing, Skustack WMS integration, catalog publishing, and consolidated marketplace inventory synchronization. |
+| **[ChannelEngine](https://www.channelengine.com/)** | $57.4M Raised / ~$46.8M Est. Revenue | Custom enterprise quote; baseline packages typically require €175K monthly GMV threshold (1-year annual contract) | **No Free Tier / No Trial**: Consultation & guided demonstration only | Connects store catalogs to 700+ global marketplaces (Zalando, Bol, Amazon, Cdiscount) with AI category taxonomy mapping and Buy Box repricers. |
+| **[Sellbrite](https://www.sellbrite.com/)** | GoDaddy subsidiary / ~$10M–$15M Est. Revenue | $29/mo (Pro 100 plan for up to 100 orders/month) | **Free Forever Plan**: 30 orders/month across all channels with full listing and inventory sync | Multi-channel listing templates, auto-suggested marketplace item specifics, order management, and FBA multi-channel fulfillment sync. |
+| **[CedCommerce](https://cedcommerce.com/)** | ~$9.1M–$14.6M Est. Revenue | $19/mo (Beginner tier on Shopify/WooCommerce channel apps) | **Free Forever Plan**: Up to 50 orders/month & 100 products (7 to 14-day free trial on select enterprise modules) | Official Salesforce Commerce Cloud Link partner and multi-platform extension provider for TikTok Shop, Walmart, Amazon, and Etsy. |
+| **[Zentail](https://www.zentail.com/)** | $6.2M Raised / ~$2.5M–$3M Est. Revenue | $300/mo (Base plan for emerging channels) | **No Free Tier / No Trial**: Occasional first-month platform fee promotion upon annual agreement | AI-driven SMART Types product catalog mapping, channel-specific listing overrides, oversell defense, and warehouse priority routing. |
+| **[GoDataFeed](https://www.godatafeed.com/)** | ~$2M Est. Revenue | $39/mo (Lite plan for 1,000 SKUs & 1 channel; +$5/mo per 1K additional SKUs) | **14-Day Free Trial**: Full feature access across plans (payment method required at signup) | FeedPilot rule engine providing attribute concatenation, custom regex text replacements, dynamic margin additions, and UTM tracking injection. |
+| **[ChannelSale](https://apps.shopify.com/channelsale)** | ~$1.7M Est. Revenue | $19/mo (Entry sync plan for 100 orders/month) | **Free Forever Plan**: Up to 15 orders/month and 500 product listings across Amazon, eBay, and Walmart | Connects to 200+ marketplaces with managed onboarding, catalog optimization, and multi-channel inventory/tracking synchronization. |
+
+---
+
+## Open-Source GitHub Projects
+
+Multi-channel marketplace management remains an area where open-source software is scarce at the native category-mapping and feed-transformation layer. However, several open-source order orchestration systems, headless commerce platforms, and marketplace API client libraries power production-grade self-hosted multichannel architectures.
+
+Sorted in descending order by GitHub star count:
+
+| Repository | GitHub Stars | License | Primary Architectural Role |
+| :--- | :--- | :--- | :--- |
+| **[bagisto/bagisto](https://github.com/bagisto/bagisto)** | [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | MIT | Enterprise-scale multi-vendor marketplace engine and headless commerce framework supporting 10M+ SKUs and multi-channel store instances. |
+| **[spree/spree](https://github.com/spree/spree)** | [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers) | BSD-3-Clause | Omnichannel headless commerce platform providing unified REST/GraphQL APIs, multi-store data tenancy, and inventory multi-location management. |
+| **[reactioncommerce/reaction](https://github.com/reactioncommerce/reaction)** | [![Stars](https://img.shields.io/github/stars/reactioncommerce/reaction?style=social&color=white)](https://github.com/reactioncommerce/reaction/stargazers) | Apache-2.0 | API-first commerce engine built with Node.js, GraphQL, and microservices for routing real-time checkout orders across dispersed sales endpoints. |
+| **[aimeos/aimeos](https://github.com/aimeos/aimeos)** | [![Stars](https://img.shields.io/github/stars/aimeos/aimeos?style=social&color=white)](https://github.com/aimeos/aimeos/stargazers) | LGPL-3.0 | Ultra-fast modular ecommerce framework supporting B2B multi-store catalogs, complex marketplace hierarchies, and ERP inventory sync feeds. |
+| **[pimcore/pimcore](https://github.com/pimcore/pimcore)** | [![Stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers) | GPL-3.0 | Centralized Product Information Management (PIM) and Master Data Management (MDM) engine used to model, transform, and export product feeds. |
+| **[openshiporg/openship](https://github.com/openshiporg/openship)** | [![Stars](https://img.shields.io/github/stars/openshiporg/openship?style=social&color=white)](https://github.com/openshiporg/openship/stargazers) | MIT | Dedicated multi-channel order router linking stores (Shopify, WooCommerce, Amazon, eBay) to 3PL and supplier fulfillment destinations. |
+| **[akeneo/pim-community-dev](https://github.com/akeneo/pim-community-dev)** | [![Stars](https://img.shields.io/github/stars/akeneo/pim-community-dev?style=social&color=white)](https://github.com/akeneo/pim-community-dev/stargazers) | OSL-3.0 | Open-source PIM platform enabling multichannel merchants to standardize attributes, localize descriptions, and export clean feeds to channels. |
+| **[saleweaver/python-amazon-sp-api](https://github.com/saleweaver/python-amazon-sp-api)** | [![Stars](https://img.shields.io/github/stars/saleweaver/python-amazon-sp-api?style=social&color=white)](https://github.com/saleweaver/python-amazon-sp-api/stargazers) | MIT | Python client wrapper for the Amazon Selling Partner API (SP-API) covering Orders, Feeds, Reports, Listings Items, Pricing, and Merchant Fulfillment. |
+| **[jlevers/selling-partner-api](https://github.com/jlevers/selling-partner-api)** | [![Stars](https://img.shields.io/github/stars/jlevers/selling-partner-api?style=social&color=white)](https://github.com/jlevers/selling-partner-api/stargazers) | MIT | Complete PHP client SDK for Amazon SP-API with auto token refresh, rate-limit handling, and feed document encryption/decryption. |
+| **[lineofflight/peddler](https://github.com/lineofflight/peddler)** | [![Stars](https://img.shields.io/github/stars/lineofflight/peddler?style=social&color=white)](https://github.com/lineofflight/peddler/stargazers) | MIT | Robust Ruby interface for Amazon Selling Partner APIs designed for high-concurrency order harvesting and catalog feed generation. |
+| **[openoms-org/openoms](https://github.com/openoms-org/openoms)** | [![Stars](https://img.shields.io/github/stars/openoms-org/openoms?style=social&color=white)](https://github.com/openoms-org/openoms/stargazers) | ELv2 / MIT SDKs | Order Management System backend (Go + Next.js) featuring 460+ endpoints and SDKs for Allegro, Amazon SP-API, WooCommerce, and eBay. |
+
+---
+
+## Core Capabilities in Multi-Channel Management
+
+1. **Catalog & Feed Transformation**: Harmonizing master SKU attributes into marketplace-specific taxonomies (e.g., Google Shopping RSS, Amazon SP-API JSON, Walmart Spec 4.0).
+2. **Real-Time Inventory Synchronization**: Bi-directional inventory buffer management that instantly decrements stock across all connected channels to eliminate out-of-stock cancellations.
+3. **Algorithmic Repricing & Buy Box Optimization**: Dynamic price adjustments responding to competitor pricing, seller rating thresholds, and shipping velocity.
+4. **Intelligent Order Routing & Split Fulfillment**: Routing orders dynamically to optimal fulfillment nodes (FBA, internal warehouses, 3PL logistics, or dropship suppliers).
+
+---
+
+## How to Contribute
+
+Contributions are welcome! Please follow these guidelines:
+
+1. **Fork** this repository.
+2. Create a topic branch (`git checkout -b feature/add-new-channel-tool`).
+3. Add verified SaaS platforms or open-source projects (include official documentation links, exact starting pricing, or active GitHub repo metrics).
+4. Verify all markdown tables and links render cleanly.
+5. Submit a **Pull Request** with a brief summary of the added solution.
+
+---
+
+## Disclaimer
+
+- This repository is a community-curated educational index and does not represent an endorsement or commercial partnership.
+- Multi-channel operations must adhere to marketplace API acceptable use policies, rate limits, and brand safety guidelines.
+- Always review repository licensing before incorporating code into commercial environments.
+
+---
+
+<div align="center">
+  <sub>Maintained for ecommerce engineers, omnichannel architects, and marketplace operations specialists.</sub>
+</div>
