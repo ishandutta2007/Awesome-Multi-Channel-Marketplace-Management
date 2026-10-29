@@ -1,31 +1,33 @@
 <div align="center">
   <img src="assets/banner.svg" alt="Awesome Multi-Channel Marketplace Management Banner" width="100%" />
 
-  # Awesome Multi-Channel Marketplace Management
+  # 🛒 Awesome Multi-Channel Marketplace Management 🌐
 
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
   [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management?style=social)](https://github.com/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management/stargazers)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Multi-Channel-Marketplace-Management/pulls)
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
   **A curated directory of enterprise SaaS platforms, product feed management engines, and open-source order orchestration systems for multi-channel ecommerce across Amazon, Walmart, eBay, TikTok Shop, Etsy, and global marketplaces.**
 
-  [Sector Overview](#sector-overview--market-dynamics) • [SaaS Platforms](#saashosted-platforms) • [Open-Source Projects](#open-source-github-projects) • [Key Capabilities](#core-capabilities-in-multichannel-management) • [Contributing](#how-to-contribute)
+  [📊 Sector Overview](#-sector-overview--market-dynamics) • [☁️ SaaS Platforms](#%EF%B8%8F-saashosted-platforms) • [💻 Open-Source Projects](#-open-source-github-projects) • [⚡ Key Capabilities](#-core-capabilities-in-multi-channel-management) • [🤝 Contributing](#-how-to-contribute) • [💖 Support](#-support) • [⭐ Star History](#-star-history)
 </div>
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global multi-channel order and marketplace management software market is valued at approximately **$4.2 billion to $4.5 billion**, expanding at a 10%–12% CAGR toward an estimated $7B–$11B by the early 2030s. The sector remains **moderately fragmented**: the top five global enterprise software suites account for roughly 32%–38% of revenue, while a dynamic tier of specialist feed optimization platforms and regional connector middleware serves merchants navigating fragmented seller APIs, local marketplaces, and emerging social shopping channels.
 
 ---
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 The table below lists leading commercial multi-channel marketplace and feed management platforms, sorted in descending order by parent company scale (market capitalization, valuation, or estimated annual revenue):
 
-| Platform | Company Scale / Valuation | Starting Tier Pricing | Free Tier / Trial Limits | Core Multi-Channel Capabilities |
+| Platform | 🏢 Company Scale / Valuation | 💳 Starting Tier Pricing | 🎁 Free Tier / Trial Limits | 🚀 Core Multi-Channel Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Shopify Marketplace Connect](https://help.shopify.com/en/manual/online-sales-channels/marketplaces/marketplace-connect)** | ~$215B Market Cap (Shopify Inc., NYSE: SHOP) | $0/mo base; 1% fee on sales for orders beyond the 50th order (capped at $99/mo max) | **Free Forever Plan**: 50 marketplace-synced orders/month + unlimited manual imports | Native Shopify channel app linking catalog items to Amazon, eBay, Walmart, and Target Plus via SKU/UPC matching with auto inventory sync. |
 | **[ChannelAdvisor (Rithum)](https://www.rithum.com/)** | ~$1.5B+ Valuation (Rithum / Clearlake & GTCR portfolio) | ~$1,500/mo to $2,000/mo minimum platform fee + 2%–4% GMV revenue share (custom contract) | **No Free Tier / No Trial**: Live custom enterprise product demonstration only | Enterprise algorithmic Buy Box repricing for Amazon & Walmart, automated deal planning across 50+ channels, and multi-node 3PL routing. |
@@ -40,13 +42,13 @@ The table below lists leading commercial multi-channel marketplace and feed mana
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Multi-channel marketplace management remains an area where open-source software is scarce at the native category-mapping and feed-transformation layer. However, several open-source order orchestration systems, headless commerce platforms, and marketplace API client libraries power production-grade self-hosted multichannel architectures.
 
 Sorted in descending order by GitHub star count:
 
-| Repository | GitHub Stars | License | Primary Architectural Role |
+| Repository | ⭐ GitHub Stars | 📜 License | 🛠️ Primary Architectural Role |
 | :--- | :--- | :--- | :--- |
 | **[bagisto/bagisto](https://github.com/bagisto/bagisto)** | [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | MIT | Enterprise-scale multi-vendor marketplace engine and headless commerce framework supporting 10M+ SKUs and multi-channel store instances. |
 | **[spree/spree](https://github.com/spree/spree)** | [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers) | BSD-3-Clause | Omnichannel headless commerce platform providing unified REST/GraphQL APIs, multi-store data tenancy, and inventory multi-location management. |
@@ -62,16 +64,16 @@ Sorted in descending order by GitHub star count:
 
 ---
 
-## Core Capabilities in Multi-Channel Management
+## ⚡ Core Capabilities in Multi-Channel Management
 
-1. **Catalog & Feed Transformation**: Harmonizing master SKU attributes into marketplace-specific taxonomies (e.g., Google Shopping RSS, Amazon SP-API JSON, Walmart Spec 4.0).
-2. **Real-Time Inventory Synchronization**: Bi-directional inventory buffer management that instantly decrements stock across all connected channels to eliminate out-of-stock cancellations.
-3. **Algorithmic Repricing & Buy Box Optimization**: Dynamic price adjustments responding to competitor pricing, seller rating thresholds, and shipping velocity.
-4. **Intelligent Order Routing & Split Fulfillment**: Routing orders dynamically to optimal fulfillment nodes (FBA, internal warehouses, 3PL logistics, or dropship suppliers).
+1. **🔄 Catalog & Feed Transformation**: Harmonizing master SKU attributes into marketplace-specific taxonomies (e.g., Google Shopping RSS, Amazon SP-API JSON, Walmart Spec 4.0).
+2. **📦 Real-Time Inventory Synchronization**: Bi-directional inventory buffer management that instantly decrements stock across all connected channels to eliminate out-of-stock cancellations.
+3. **🏷️ Algorithmic Repricing & Buy Box Optimization**: Dynamic price adjustments responding to competitor pricing, seller rating thresholds, and shipping velocity.
+4. **🚚 Intelligent Order Routing & Split Fulfillment**: Routing orders dynamically to optimal fulfillment nodes (FBA, internal warehouses, 3PL logistics, or dropship suppliers).
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -83,7 +85,23 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## Disclaimer
+## 💖 Support
+
+Thank you for exploring this curated repository! If you find this resource helpful for your multichannel commerce architecture or operations, please consider showing your support:
+
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** and share it with your team, network, and fellow ecommerce engineers.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance and curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Multi-Channel-Marketplace-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Multi-Channel-Marketplace-Management&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
 
 - This repository is a community-curated educational index and does not represent an endorsement or commercial partnership.
 - Multi-channel operations must adhere to marketplace API acceptable use policies, rate limits, and brand safety guidelines.
@@ -92,5 +110,5 @@ Contributions are welcome! Please follow these guidelines:
 ---
 
 <div align="center">
-  <sub>Maintained for ecommerce engineers, omnichannel architects, and marketplace operations specialists.</sub>
+  <sub>Maintained with ❤️ for ecommerce engineers, omnichannel architects, and marketplace operations specialists.</sub>
 </div>
